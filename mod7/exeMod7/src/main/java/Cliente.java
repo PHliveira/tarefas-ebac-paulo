@@ -13,9 +13,7 @@ public class Cliente {
 
     // método construtor
     public Cliente(){
-        this.endereco = nome;
-        this.idade = idade;
-        this.endereco = endereco;
+       
     }
 
 
