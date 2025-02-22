@@ -12,7 +12,7 @@ public class Parte2 {
         Set<String> grupoFeminino = new TreeSet<>();
 
         System.out.println("Lista de nomes separados por gênero");
-        System.out.println("Use -M para nomes masculinos e -F para nomes femininos. Exemplo: -M João, Pedro ou -F Maria, Ana");
+        System.out.println("Use -M para nomes masculinos em uma linha e na outra linha -F para nomes femininos. Exemplo: -MJoão,-MPedro ou -FMaria,-FAna");
         System.out.println("Digite 'SAIR' para encerrar.");
 
 
