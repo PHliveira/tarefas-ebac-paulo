@@ -280,7 +280,7 @@ modelo.addRow(new Object[]{txtNome.getText(),txtCPF.getText()});        // TODO 
             model.setValueAt("00000000000", linhaSelecionada, 1); // Atualiza a coluna 1 (CPF)
             System.out.println("Linha atualizada.");
         } else {
-            JOptionPane.showMessageDialog(this, "Selecione uma linha para atualizar.", "Eita!!", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Selecione uma linha para atualizar.", "Eita!!", JOptionPane.WARNING_MESSAGE);
         }        // TODO add your handling code here:
     }//GEN-LAST:event_btnAtualizarActionPerformed
 
