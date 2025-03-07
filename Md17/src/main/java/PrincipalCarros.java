@@ -16,11 +16,9 @@ public class PrincipalCarros  {
       ModeloDois modeloDois = new ModeloDois("Vinho", 2, "1.0", "Automático");
       ModeloTrês modeloTrês = new ModeloTrês("Prata ", 4, "2.8 ", "Automático ");
 
-      // Atributos CarroUm
-        modeloUm.setMarca("Honda");
-        modeloUm.setRoda(17);
 
 
+// usando generics  list para atribuir valor as outras classses modelosUm , Dois , Tres
         List<AbstractCarros>  listaAcessorios = new ArrayList<>();
 
         listaAcessorios.add(new ModeloUm("Azul",2,null,"manual" ));
